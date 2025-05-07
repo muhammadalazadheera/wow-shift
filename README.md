@@ -11,7 +11,7 @@
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone git@github.com:muhammadalazadheera/react-starter.git
     ```
 
 2. Navigate to the project directory and install dependencies:
