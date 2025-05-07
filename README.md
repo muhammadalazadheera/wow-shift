@@ -1,5 +1,12 @@
 # React Starter Template with Firebase Authentication Integrated
 
+## Integrated Packages 
+
+- React Router
+- Firebase
+- Tailwind CSS
+- Daisy UI
+
 ## How to Use?
 
 1. Clone the repository:
