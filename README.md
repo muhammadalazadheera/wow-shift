@@ -30,3 +30,5 @@
     ```bash
     npm run dev
     ```
+
+## Don't forget to remove the .git folder or change the remote url before pushing to remote repo.
