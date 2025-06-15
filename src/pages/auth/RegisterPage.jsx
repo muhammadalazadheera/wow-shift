@@ -2,6 +2,7 @@ import React, { use } from "react";
 import { AuthContext } from "../../contexts/AuthContext";
 import { Link } from "react-router";
 import { useNavigate } from "react-router";
+import { toast } from "react-toastify";
 
 
 function RegisterPage() {
@@ -18,7 +19,7 @@ function RegisterPage() {
         navigate("/");
       })
       .catch((error) => {
-        console.log(error);
+        toast.error(error.message);
       });
   };
   if(user) {

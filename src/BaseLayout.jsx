@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import { Outlet } from "react-router";
 import { useNavigation } from "react-router";
 import nProgress from "nprogress";
+import { ToastContainer } from "react-toastify";
 
 function BaseLayout() {
   const navigation = useNavigation();
@@ -20,6 +21,7 @@ function BaseLayout() {
     <div>
       <NavBar />
       <Outlet />
+      <ToastContainer></ToastContainer>
     </div>
   );
 }
