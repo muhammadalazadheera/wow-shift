@@ -1,6 +1,6 @@
 import React, { use } from "react";
 import { Link, useNavigate } from "react-router";
-import { AuthContext } from "../contexts/AuthContext";
+import { AuthContext } from "../../contexts/AuthContext";
 import { NavLink } from "react-router";
 import Logo from "./Logo";
 

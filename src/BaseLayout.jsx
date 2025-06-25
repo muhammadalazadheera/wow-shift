@@ -1,10 +1,10 @@
 import React, {useEffect} from "react";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Global/NavBar";
 import { Outlet } from "react-router";
 import { useNavigation } from "react-router";
 import nProgress from "nprogress";
 import { ToastContainer } from "react-toastify";
-import Footer from "./components/Footer";
+import Footer from "./components/Global/Footer";
 
 function BaseLayout() {
   const navigation = useNavigation();
