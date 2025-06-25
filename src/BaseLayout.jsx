@@ -4,6 +4,7 @@ import { Outlet } from "react-router";
 import { useNavigation } from "react-router";
 import nProgress from "nprogress";
 import { ToastContainer } from "react-toastify";
+import Footer from "./components/Footer";
 
 function BaseLayout() {
   const navigation = useNavigation();
@@ -18,9 +19,10 @@ function BaseLayout() {
   }, [navigation.state]);
 
   return (
-    <div>
+    <div className="max-w-[95%] mx-auto">
       <NavBar />
       <Outlet />
+      <Footer />
       <ToastContainer></ToastContainer>
     </div>
   );
